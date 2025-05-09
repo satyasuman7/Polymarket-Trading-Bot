@@ -1,5 +1,5 @@
 # Solana-PumpSwap-Volume-Bot
-PumpSwap volume bot. Feel free to reach out of me if you need full script or custom requirement[Telegram: https://t.me/DevCutup, Whatsapp: https://wa.me/13137423660].
+PumpSwap volume bot. This is automated buy/sell bot to boost token volume on pumpSwap, by pumpSwap sdk. I shared sdk part. Feel free to reach out of me if you need full script or custom requirement[Telegram: https://t.me/DevCutup, Whatsapp: https://wa.me/13137423660].
 
 ### Contacts
 - Telegram: https://t.me/DevCutup
