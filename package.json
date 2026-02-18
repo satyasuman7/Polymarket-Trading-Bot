@@ -1,8 +1,9 @@
 {
-  "name": "pumpswap-volume",
+  "name": "polymarket-copy-trading-bot",
   "version": "1.0.0",
-  "main": "test.ts",
+  "main": "src/main.ts",
   "scripts": {
+    "start": "ts-node src/main.ts",
     "test": "",
     "buy": "ts-node src/buy.ts"
   },
@@ -31,6 +32,7 @@
     "commander": "^12.1.0",
     "csv-parser": "^3.2.0",
     "dotenv": "^16.4.1",
+    "ethers": "^6.13.0",
     "express": "^4.21.1",
     "fast-csv": "^5.0.2",
     "global-agent": "^3.0.0",
