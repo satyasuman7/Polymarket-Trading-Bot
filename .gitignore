@@ -1,7 +1,33 @@
-.env
-config.ts
-
+# Dependencies
 node_modules/
-node_modules/*
+package-lock.json
 
-data.json
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data files (contain sensitive information)
+src/data/
+*.json
+!package.json
+!tsconfig.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
