@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../../_types/tempo/TxEnvelopeTempo.d.ts",
+  "main": "../../_cjs/tempo/TxEnvelopeTempo.js",
+  "module": "../../_esm/tempo/TxEnvelopeTempo.js"
+}

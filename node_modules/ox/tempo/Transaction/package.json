@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../../_types/tempo/Transaction.d.ts",
+  "main": "../../_cjs/tempo/Transaction.js",
+  "module": "../../_esm/tempo/Transaction.js"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../_types/tempo/index.d.ts",
+  "main": "../_cjs/tempo/index.js",
+  "module": "../_esm/tempo/index.js"
+}

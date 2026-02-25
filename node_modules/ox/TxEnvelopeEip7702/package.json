@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../_types/core/TxEnvelopeEip7702.d.ts",
+  "main": "../_cjs/core/TxEnvelopeEip7702.js",
+  "module": "../_esm/core/TxEnvelopeEip7702.js"
+}

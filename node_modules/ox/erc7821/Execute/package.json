@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../../_types/erc7821/Execute.d.ts",
+  "main": "../../_cjs/erc7821/Execute.js",
+  "module": "../../_esm/erc7821/Execute.js"
+}
