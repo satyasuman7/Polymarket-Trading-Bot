@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../../_types/tempo/SignatureEnvelope.d.ts",
+  "main": "../../_cjs/tempo/SignatureEnvelope.js",
+  "module": "../../_esm/tempo/SignatureEnvelope.js"
+}

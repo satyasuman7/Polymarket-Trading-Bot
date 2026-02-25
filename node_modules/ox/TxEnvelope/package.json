@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "types": "../_types/core/TxEnvelope.d.ts",
+  "main": "../_cjs/core/TxEnvelope.js",
+  "module": "../_esm/core/TxEnvelope.js"
+}

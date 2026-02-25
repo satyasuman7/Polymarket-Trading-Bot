@@ -1,0 +1,16 @@
+export var SignatureType;
+(function (SignatureType) {
+    /**
+     * ECDSA EIP712 signatures signed by EOAs
+     */
+    SignatureType[SignatureType["EOA"] = 0] = "EOA";
+    /**
+     * EIP712 signatures signed by EOAs that own Polymarket Proxy wallets
+     */
+    SignatureType[SignatureType["POLY_PROXY"] = 1] = "POLY_PROXY";
+    /**
+     * EIP712 signatures signed by EOAs that own Polymarket Gnosis safes
+     */
+    SignatureType[SignatureType["POLY_GNOSIS_SAFE"] = 2] = "POLY_GNOSIS_SAFE";
+})(SignatureType || (SignatureType = {}));
+//# sourceMappingURL=signature-types.model.js.map
