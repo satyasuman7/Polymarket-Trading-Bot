@@ -46,7 +46,7 @@ function canBuy(tokenId: string): boolean {
 
 async function main(): Promise<void> {
   const slug = slugForCurrent15m(MARKET);
-  logger.info('[Bot] Starting Polymarket-Kalshi Arbitrage Bot...');
+  logger.info("Starting the bot...");
   
   if (!POLYMARKET_PRIVATE_KEY || !POLYMARKET_PROXY) {
     console.warn(
