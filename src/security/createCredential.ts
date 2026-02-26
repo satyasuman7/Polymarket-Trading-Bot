@@ -1,6 +1,6 @@
 import { ApiKeyCreds, ClobClient, Chain } from "@polymarket/clob-client";
-import { writeFileSync, existsSync, readFileSync } from "fs";
-import { resolve } from "path";
+import { writeFileSync, existsSync, readFileSync, mkdirSync } from "fs";
+import { resolve, dirname } from "path";
 import { Wallet } from "@ethersproject/wallet";
 import { config } from "../config";
 
@@ -37,5 +37,12 @@ export async function createCredential(): Promise<ApiKeyCreds | null> {
 
 export async function saveCredential(credential: ApiKeyCreds) {
     const credentialPath = resolve(process.cwd(), "src/data/credential.json");
+    const credentialDir = dirname(credentialPath);
+    
+    // Create directory if it doesn't exist
+    if (!existsSync(credentialDir)) {
+        mkdirSync(credentialDir, { recursive: true });
+    }
+    
     writeFileSync(credentialPath, JSON.stringify(credential, null, 2));
 }
