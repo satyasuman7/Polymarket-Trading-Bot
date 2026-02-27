@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "types": "../../_types/tempo/PoolId.d.ts",
-  "main": "../../_cjs/tempo/PoolId.js",
-  "module": "../../_esm/tempo/PoolId.js"
-}

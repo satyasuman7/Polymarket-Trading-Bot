@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "types": "../../_types/tempo/TokenRole.d.ts",
-  "main": "../../_cjs/tempo/TokenRole.js",
-  "module": "../../_esm/tempo/TokenRole.js"
-}

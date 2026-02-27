@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "types": "../../_types/erc8021/Attribution.d.ts",
-  "main": "../../_cjs/erc8021/Attribution.js",
-  "module": "../../_esm/erc8021/Attribution.js"
-}

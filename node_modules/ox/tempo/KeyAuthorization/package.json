@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "types": "../../_types/tempo/KeyAuthorization.d.ts",
-  "main": "../../_cjs/tempo/KeyAuthorization.js",
-  "module": "../../_esm/tempo/KeyAuthorization.js"
-}

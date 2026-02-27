@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "types": "../../_types/tempo/Tick.d.ts",
-  "main": "../../_cjs/tempo/Tick.js",
-  "module": "../../_esm/tempo/Tick.js"
-}

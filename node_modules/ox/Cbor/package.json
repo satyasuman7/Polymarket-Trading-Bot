@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "types": "../_types/core/Cbor.d.ts",
-  "main": "../_cjs/core/Cbor.js",
-  "module": "../_esm/core/Cbor.js"
-}
