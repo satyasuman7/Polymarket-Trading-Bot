@@ -1,30 +1,33 @@
 {
-  "name": "polymarket-copytrading",
+  "name": "polymarket-win-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Polymarket Win Bot - BTC/ETH/SOL/XRP 5m/15m/1h, buy when winning token > X, profit lock 0.99, stop loss Y",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "redeem": "ts-node src/redeem.ts",
-    "redeem:holdings": "ts-node src/redeem-holdings.ts",
-    "balance:log": "ts-node src/balance-logger.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "node dist/index.js",
+    "start": "npx ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["polymarket", "trading", "btc", "eth", "sol", "xrp"],
   "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/constants": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/units": "^5.7.0",
+    "@ethersproject/wallet": "^5.7.0",
+    "@polymarket/clob-client": "^4.22.8",
+    "@safe-global/protocol-kit": "^6.1.2",
+    "@safe-global/types-kit": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "ws": "^8.19.0"
+  },
   "devDependencies": {
-    "@types/node": "^24.10.1",
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.18.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "@ethersproject/wallet": "^5.8.0",
-    "@polymarket/clob-client": "^4.22.8",
-    "@polymarket/real-time-data-client": "^1.4.0",
-    "pino-logger-utils": "^1.0.0",
-    "chalk": "^5.6.2",
-    "dotenv": "^17.2.3",
-    "ethers": "^6.16.0"
   }
 }
